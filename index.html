@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+      <header>
+          <h1>សូមស្វាគមន៍មកកាន់ហាងម៉ូតូខ្ញុំបាទ</h1>
+        <marquee scrollamount="15px" behavior="scroll" direction="right">
+        <h3>តើលោកអ្នកត្រូវការម៉ូតូអីដែរ</h3>
+    </marquee>
+      </header>
+      <main>
+        <section class="hero-banner">
+           <!-- Swiper -->
+        <div class="swiper mySwiperHeroBanner">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="assets/images/scoopy-25.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="assets/images/beat8.webp"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="assets/images/024.png"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="assets/images/scoopy24.png"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="assets/images/vaspa5.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="assets/images/scoopy-23.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="assets/images/honda23.png"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="assets/images/beat3.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="assets/images/scoopy25.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+​​​​​       <nav class="navbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="../../honda dream.html" class="nav-link">Honda dream</a>
+          </li>
+          <li class="nav-item">
+            <a href="../../scoopy.html" class="nav-link">Honda Scoopy </a>
+          </li>
+          <li class="nav-item">
+            <a href="../../beat.html" class="nav-link">Honda Beat</a>
+          </li>
+          <li class="nav-item">
+            <a href="../../vaspa.html" class="nav-link">Vaspa</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <!-- ====================== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiperHeroBanner", {
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+
+        </section>
+      </main>
+  </body>
+</html>
